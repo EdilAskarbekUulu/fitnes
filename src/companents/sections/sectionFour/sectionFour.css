@@ -1,0 +1,108 @@
+@import url(../../../reset.css);
+.sectionFourMain{
+    max-width: 1635px;
+    margin: auto;
+    padding: 0 20px 0;
+    background-color: #FFFFFF;
+}
+.sectionFourText{
+    text-align: center;
+    
+    padding-top: 50px;
+}
+.sectionFourText h3{
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49.06px;
+    color:  #7EB693;
+}
+.sectionFourText h2{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    text-align: center;
+    color: #274C5B;    
+}
+.sectionFourWrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1%;
+    background-color: #FFFFFF;
+    padding-top: 50px;
+}
+.sectionFourBlock{
+    width: 335px;
+    height: 483px;
+    margin-top: 15px;
+}
+.sectionFourImg{
+    width: 100%;
+    position: relative;
+}
+.sectionFourImg img{
+    width: 100%;
+}
+.sectionFourImg span{
+    position: absolute;
+    margin-left: -290px;
+    margin-top: 20px;
+    width: Hug (96px)px;
+    height: Hug (31px)px;
+    padding: 5px 12px 6px 12px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;    
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20.43px;
+    text-align: center;
+    background-color: #274C5B;
+    color: #FFFFFF;    
+}
+.sectionFourCardText{
+    position: absolute;
+    margin-top: -80px;
+    padding: 0 30px 0;
+}
+.sectionFourCardText h2{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    color: #274C5B;
+}
+.sectionFourSum{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.sectionFourSumma{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.sectionFourSumma p{
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: line-through ;
+    color: #B8B8B8;    
+}
+.sectionFourSumma h4{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    color: #274C5B;
+}
+.sectionFourStar{
+    margin-left: 120px;
+}
+.sectoinFourBtn{
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    padding-top: 50px;
+}

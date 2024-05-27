@@ -1,0 +1,156 @@
+@import url(../../../reset.css);
+
+.sectionThreeMain{
+    max-width: 1635px;
+    margin: auto;
+    padding: 0 20px 0;
+    background-color: #FFFFFF;
+}
+.sectionThreeWrap{
+    display: flex;
+    width: 100%;
+    gap: 4%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+    padding-bottom: 70px;
+}
+.sectionThreeImg{
+    width: 57%;
+    margin-left: -200px;
+}
+.sectionThreeImg img{
+    width: 100%;
+    height: 100%;
+}
+.sectionThreeText{
+    width: 38%;
+    margin-left: -150px;
+    position: relative;
+}
+.sectionThreeText h3{
+    font-family: Yellowtail;
+    font-size: 2.2571vw;
+    font-weight: 400;
+    text-align: left;
+    color: #7EB693;
+}
+.sectionThreeText h2{
+    font-family: Roboto;
+    font-size: 3.1348vw;
+    font-weight: 800;
+    text-align: left;
+    color: #274C5B;
+}
+.sectionThreeText p{
+    font-family: Open Sans;
+    font-size: 1.1285vw;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 2%;
+}
+.sectionThreeBox{
+    display: flex;
+    gap: 1%;
+    align-items: center;
+    width: 50%;
+    margin-top: 2%;
+}
+.sectionThreeBoxImg {
+    width: 160px;
+    height: 101px;
+}
+.sectionThreeBoxImg img{
+    width: 100%;
+    height: 100%;
+}
+.sectionThreeBoxText h2{
+    font-family: Roboto;
+    font-size: 1.5674vw;
+    font-weight: 800;
+    text-align: left;
+}
+.sectionThreeBoxText p{
+    font-family: Open Sans;
+    font-size: 1.1285vw;
+    font-weight: 400;
+    text-align: left;
+    width: 150%;
+    margin-top: 0;
+}
+.btn{
+    width: Fixed (220px)px;
+    height: Hug (79px)px;
+    padding: 28px 39px 28px 39px;
+    gap: 10px;
+    border-radius: 16px;
+    opacity: 0px;
+    background-color: #274C5B;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+}
+.btnImg{
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background-color: #335B6B;
+}
+@media (max-width: 1463px){
+    .sectionThreeText{
+        margin-left: 0;
+        max-width: 50%;
+    }
+    .sectionThreeImg{
+        margin-left: 0;
+    }
+    
+}
+@media (max-width: 780px){
+    .sectionThreeWrap{
+        display: block;
+        display: grid;
+        place-items: center;
+    }
+    .sectionThreeText{
+        width: 100%;
+        text-align: center;
+        display: grid;
+        place-items: center;
+    }
+    .sectionThreeText h3{
+        font-size: 2.5641vw;
+        text-align: center;
+    }
+    .sectionThreeText h2{
+        font-size: 5.1282vw;
+        text-align: center;
+    }
+    .sectionThreeText p{
+        font-size: 2.3077vw;
+        text-align: center;
+    }
+    .sectionThreeBoxText h2{
+        font-size: 3.2051vw;
+        text-align: center;
+    }
+    .sectionThreeBoxText p{
+        width: 100%;
+        text-align: center;
+    }
+    .sectionThreeBox{
+        display: block;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 0 30px 0;
+    }
+    
+}

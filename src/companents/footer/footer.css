@@ -1,0 +1,165 @@
+.footer{
+    max-width: 1635px;
+    margin: auto;
+    background-color: #FFFFFF;
+    padding-top: 200px;
+}
+.footerImg{
+    width: 100%;
+    max-height: 323px;
+}
+.footerImg img{
+    width: 100%;
+    height: 100%;
+}
+.footerWrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px 0;
+    margin-top: -180px;
+}
+.footerWrap h1{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    text-align: left;
+    color: #FFFFFF;   
+    width: 55%; 
+}
+.footerWrap input{
+    width: 349px;
+    height: 80px;
+    gap: 0px;
+    border-radius: 16px;
+    opacity: 0px;
+    background: #FFFFFF;
+    padding-left: 20px;
+}
+.footerWrap button{
+    width: Fixed (220px)px;
+    height: Hug (80px)px;
+    padding: 28px 47px 29px 47px;
+    gap: 10px;
+    border-radius: 16px;
+    opacity: 0px;
+    background: #274C5B;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: left;
+    color: #FFFFFF; 
+    margin-left: 10px;       
+}
+.footerBlock{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0;
+    margin-top: 200px;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.FooterBoxOne{
+    text-align: right;
+    padding-right: 50px;
+}
+.FooterBoxOne h2{
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35.16px;
+    text-align: right;
+    color: #274C5B;
+}
+.FooterContackt h3{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29.7px;
+    color: #525C60;
+}
+.FooterContackt{
+    margin-top: 30px;
+}
+.FooterContackt p{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.7px;
+    text-align: right;
+    color: #525C60;
+}
+.FooterBoxTwo{
+    display: grid;
+    place-items: center;
+    padding: 0 100px 0;
+    border-left: 1px solid rgb(128, 127, 127, 0.7);
+    border-right: 1px solid rgb(128, 127, 127, 0.7);
+}
+.FooterBoxTwo p{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: center;
+    color: #525C60;
+}
+.account{
+    display: flex;
+    gap: 5%;
+}
+.footerAccountImg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #EFF6F1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.UtilityPages{
+    text-align: left;
+}
+.UtilityPages h2{
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35.16px;
+    text-align: left;
+    color: #274C5B;    
+}
+.UtilityPages h3{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 49.12px;
+    text-align: left;
+    color: #525C60;    
+    cursor: pointer;
+}
+.FooterBoxThree{
+    padding-left: 50px;
+}
+.footerEnd{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgb(128, 127, 127, 0.7);
+}
+.footerEnd h4{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: center;
+    color: #525C60;
+}
+.footerEnd h4 span{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29.77px;
+    text-align: center;
+}

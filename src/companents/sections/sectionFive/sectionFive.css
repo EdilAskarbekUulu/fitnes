@@ -1,0 +1,150 @@
+@import url(../../../reset.css);
+
+.sectionFiveMain{
+    max-width: 1635px;
+    margin: auto;
+    padding: 0 20px 0;
+    background-color: #FFFFFF;
+}
+.sectionFiveWrap{
+    display: flex;
+    width: 100%;
+    gap: 4%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+    padding-top: 100px;
+}
+.sectionFiveBlockTwo{
+    margin: auto;
+}
+.sectionFiveText{
+    display: grid;
+    place-items: center;
+    margin-top: -500px;
+}
+.sectionFiveText h3{
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49.06px;
+    color: #7EB693;
+}
+.sectionFiveText h2{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    text-align: center;
+    color: #274C5B;    
+}
+.sectionFiveText p{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: center;
+    color: #525C60;   
+    margin-top: 30px; 
+}
+.sectionFiveText h4{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 29.3px;
+    color: #274C5B;
+    margin-top: 25px;
+}
+.sectionFiveText h5{
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24.81px;
+    color: #525C60;
+}
+.sectionFivePhoto img{
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;  
+}
+.sectionFiveImg{
+    display: grid;
+    place-items: center;
+    margin-top: 90px;
+}
+.sectionFiveStar img{
+    width: 28.02px;
+    height: 26.75px;
+}
+.sectionFiveStar{
+    display: flex;
+    gap: 5%;
+    margin-left: -30px;
+    margin-top: 30px;
+}
+.sectionFiveProsend{
+    display: flex;
+    gap: 8%;
+    margin-top: 200px;
+}
+.sectionFiveBox{
+    width: 241px;
+    height: 180px;
+    border-radius: 50%;
+    border: 2px solid #7EB693;
+    display: grid;
+    place-items: center;
+}
+.sectionFiveBox h1{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    text-align: center;    
+    color: #274C5B;
+    margin-top: 25px;
+}
+.sectionFiveBox p{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29.77px;
+    text-align: center;
+    color: #274C5B;
+    margin-top: -90px;    
+}
+.sectionFiveBlock{
+    height: 1655px;
+}
+.sectionFiveBlock img{
+    height: 100%;
+}
+.sectionFiveBlockThree{
+    height: 1655px;
+}
+.sectionFiveBlockThree img {
+    height: 100%;
+}
+@media(max-width: 1100px){
+    .sectionFiveProsend{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    .sectionFiveBlock{
+        display: none;
+    }
+    .sectionFiveBlockThree{
+        display: none;
+    }
+    .sectionFiveWrap{
+        padding-top: 600px;
+    }
+    .sectionFiveBox{
+        width: 211px;
+        height: 211px;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+}
